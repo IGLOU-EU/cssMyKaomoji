@@ -5,7 +5,7 @@
 
 ## CssMyEmoji is a lightweight css library
 
-* **Tiny**, only -K0 for - Kaomoji
+* **Tiny**, only 41Ko for 744 Kaomoji
 * **Simple**, use Kaomoji class and Kaomoji name
 * **W3C valid**, use "content" for add content ...
 * **No bullshit**, no size forced, font-size for change emoji scale
