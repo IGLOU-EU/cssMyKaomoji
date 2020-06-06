@@ -33,8 +33,8 @@
 <span role="image" class="kaomoji cat_2"></span>`
 ```
 
-2. **See test.html inside a web browser, for preview**
-3. **Based on a [kaomoji List](http://kaomoji.ru/en/)**
+2. **See test/index.html inside a web browser, for preview**
+3. **Based on [kaomoji List](http://kaomoji.ru/en/)**
 
 ## :shipit: **DISCLAIMER**
 
