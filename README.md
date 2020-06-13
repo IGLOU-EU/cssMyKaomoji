@@ -30,7 +30,7 @@
 <link rel='stylesheet' type='text/css' href='kaomoji.css'>
 ```
 ```html
-<span role="image" class="kaomoji cat_2"></span>`
+<span role="img" class="kaomoji cat_2"></span>`
 ```
 
 2. **See test/index.html inside a web browser, for preview**

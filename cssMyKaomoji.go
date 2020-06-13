@@ -118,7 +118,7 @@ func makeDemoFile(kl map[string]string) {
 	defer f.Close()
 
 	for k := range kl {
-		css += "<span role=\"image\" class=\"kaomoji " + k + "\"><sup>." + k + "</sup></span>"
+		css += "<span role=\"img\" class=\"kaomoji " + k + "\"><sup>." + k + "</sup></span>"
 	}
 
 	css += "</body></html>"
