@@ -109,7 +109,7 @@ func makeCSSFile(kl map[string]string) {
 }
 
 func makeDemoFile(kl map[string]string) {
-	css := "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><link rel='stylesheet' type='text/css' href='../kaomoji.css'><style>body{display:grid;grid-template-columns:repeat(3,1fr);grid-gap:.5rem;}span{padding:1rem;border:2px dashed lightblue;text-align:center; min-height: 8em;display: flex;flex-direction: column;justify-content: space-around;white-space: nowrap;}sup{padding-top: .5em;margin-top: .5em;border-top: 1px dashed lightblue;display:block}::before{font-weight: bold;font-size: 1.5em;}</style></head><body>"
+	css := "<!DOCTYPE html><html><head><meta charset=\"utf-8\"><script src=\"main.js\"></script><link rel='stylesheet' type='text/css' href='../kaomoji.css'><style>body{display:grid;grid-template-columns:repeat(3,1fr);grid-gap:.5rem;}span{padding:1rem;border:2px dashed lightblue;text-align:center; min-height: 8em;display: flex;flex-direction: column;justify-content: space-around;white-space: nowrap;}sup{padding-top: .5em;margin-top: .5em;border-top: 1px dashed lightblue;display:block}::before{font-weight: bold;font-size: 1.5em;}</style></head><body>"
 
 	f, err := os.OpenFile(htmlFile, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
