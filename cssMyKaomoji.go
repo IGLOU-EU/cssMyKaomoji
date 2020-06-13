@@ -91,7 +91,7 @@ func extractKaomoji(p string) {
 }
 
 func makeCSSFile(kl map[string]string) {
-	css := ".kaomoji {font-family: Monaco, DejaVu Sans Mono, Lucida Console, Andale Mono, monospace;}"
+	css := `.kaomoji {font-family: "Monaco", "DejaVu Sans Mono", "Lucida Console", "Andale Mono", "monospace";}`
 
 	f, err := os.OpenFile(cssFile, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
