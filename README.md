@@ -34,7 +34,8 @@
 ```
 
 2. **See test/index.html inside a web browser, for preview**
-3. **Based on [kaomoji List](http://kaomoji.ru/en/)**
+3. **On preview, you can click on a kaomoji or class name for copy**
+4. **Based on [kaomoji List](http://kaomoji.ru/en/)**
 
 ## :shipit: **DISCLAIMER**
 
