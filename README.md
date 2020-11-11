@@ -40,3 +40,4 @@
 ## :shipit: **DISCLAIMER**
 
 This program is under MIT license [[read the entire license file]](https://git.iglou.eu/Laboratory/CssMyKaomoji/raw/branch/master/LICENSE)
+
